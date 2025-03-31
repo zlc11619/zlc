@@ -33,7 +33,7 @@ p,body,h1 {
   font-family: "Cascadia Mono";
 }
 .guarantee{
-  background-image:url(images/background.gif);
+  background:#a7cece url(images/background.gif);
   background-repeat: no-repeat;
   background-position:top left;
   padding: 25px;
