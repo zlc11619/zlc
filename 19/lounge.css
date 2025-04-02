@@ -46,3 +46,24 @@ p,body,h1 {
   border-top-right-radius: 2em;
   border-bottom-left-radius: 2em;
 }
+.cd{
+  font-style:italic;
+}
+.artist{
+  font-weight:bold;
+}
+.cd {
+	display: inline-block;
+	font-style: italic;
+	width: 500px;
+}
+a:link {
+  color: green;
+}
+a:visited {
+  color: red;
+}
+a:hover {
+  color: yellow;
+}
+
