@@ -1,0 +1,116 @@
+/**
+ * 设置页面主体样式
+ */
+body {
+    /* 设置字体大小为小 */
+    font-size: small; /* 新的属性值，请自行了解 */
+    /* 设置字体族为 Verdana、Helvetica 或 Arial */
+    font-family: Verdana, Helvetica, Arial;
+    line-height: 1.6em;
+}
+
+/**
+ * 设置 h1 和 h2 标题的样式
+ */
+h1, h2 {
+    /* 将标题颜色设置为青绿色，使其与 logo 更搭配 */
+    color: #007e7e; /* 将标题设置为一种青绿色，使他和 logo 更相合 */
+}
+
+/**
+ * 设置 h1 标题的样式
+ */
+h1 {
+    /* 设置字体大小为 1.5em */
+    font-size: 1.5em;
+}
+
+/**
+ * 设置 h2 标题的样式
+ */
+h2 {
+    /* 设置字体大小为 1.3em */
+    font-size: 1.3em;
+}
+
+/**
+ * 再次设置页面主体样式，去除内边距和外边距
+ */
+body {
+    /* 设置内边距为 0% */
+    padding: 1;
+    /* 设置外边距为 0% */
+    margin: 1;
+}
+
+/**
+ * 设置 .guarantee 类元素的样式
+ */
+.guarantee {
+    /* 设置边框颜色为白色 */
+    border-color: white;
+    /* 设置边框宽度为 10px */
+    border-width: 25px;
+    /* 设置背景颜色为 #aba7ce */
+    background-color: #a7cece;
+    /* 设置内边距为 25px */
+    padding: 25px;
+    /* 设置外边距为 30px */
+    margin: 25px;
+}
+
+/**
+ * 再次设置 .guarantee 类元素的样式，添加背景图片和修改边框样式
+ */
+.guarantee {
+    /* 设置背景图片为 images/background.gif */
+    background-image: url(images/background.gif);
+    /* 设置右侧外边距为 250px */
+    margin-right: 5px;
+    /* 设置边框样式为虚线边框 */
+    border-style: dashed;
+}
+/**
+ * 继续设置 .guarantee 类元素的样式，修改边框样式并添加圆角
+ */
+.guarantee {
+    /* 设置边框样式为实线边框 */
+   
+    /* 设置边框颜色为白色 */
+    border-color: white;
+    /* 设置右上角边框圆角为 2em */
+    border-top-right-radius: 3em;
+    /* 设置左下角边框圆角为 2em */
+    border-bottom-left-radius: 3em;
+}
+.elixirs{
+    border-width:thin;
+    border-style:solid;
+    border-color:#007e7e
+}
+.elixirs{
+    width: 100px;
+}
+.cd{
+    font-style: italic;
+}
+.artist{
+    font-weight: bold;
+}
+.cd {
+	display: inline-block;
+	font-style: italic;
+	width: 500px;
+}
+a:link{
+    color:green;
+}
+a:visited{
+    color: red;
+}
+a:hover{
+    color: yellow;
+}
+.elixirs{
+    float:right;
+}
