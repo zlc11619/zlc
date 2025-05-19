@@ -1,0 +1,79 @@
+/* 整体页脚容器样式 */
+.bm-m-footer__top-links {
+    background-color: #f8f8f8; /* 设置背景颜色 */
+    padding: 2rem 0; /* 上下内边距 */
+    border-top: 1px solid #e0e0e0; /* 顶部边框 */
+}
+
+/* 主链接容器样式 */
+.bm-m-footer__main-links-container {
+    display: flex;
+    justify-content: space-around; /* 水平均匀分布子元素 */
+    align-items: center; /* 垂直居中对齐 */
+    flex-wrap: wrap; /* 子元素换行 */
+    margin-bottom: 2rem; /* 底部外边距 */
+}
+
+/* 主链接列表样式 */
+.bm-m-footer__main-links {
+    display: flex;
+    list-style: none; /* 移除列表项标记 */
+    padding: 0;
+    margin: 0;
+}
+
+/* 主链接部分样式 */
+.bm-m-footer__main-links-section {
+    display: flex;
+    flex-direction: column; /* 垂直排列子元素 */
+    gap: 1rem; /* 子元素间距 */
+}
+
+/* 列表项样式 */
+.bm-m-footer__list-item {
+    margin: 0;
+}
+
+/* 链接样式 */
+.bm-m-footer__list-item a {
+    text-decoration: none; /* 移除下划线 */
+    color: #333; /* 文字颜色 */
+    font-size: 0.9rem; /* 字体大小 */
+    transition: color 0.3s ease; /* 颜色过渡效果 */
+}
+
+.bm-m-footer__list-item a:hover {
+    color: #007bff; /* 鼠标悬停时的颜色 */
+}
+
+/* 品牌 logo 样式 */
+.bm-m-footer__list-item--logo img {
+    max-width: 150px; /* 最大宽度 */
+    height: auto; /* 高度自适应 */
+}
+
+/* 社交媒体容器样式 */
+.bm-m-footer__social-media-container {
+    display: flex;
+    justify-content: center; /* 水平居中 */
+}
+
+/* 社交媒体列表样式 */
+.bm-m-footer__social-media {
+    display: flex;
+    list-style: none; /* 移除列表项标记 */
+    padding: 0;
+    margin: 0;
+    gap: 1rem; /* 子元素间距 */
+}
+
+/* 社交媒体图标样式 */
+.bm-m-footer__social-media-icon {
+    width: 24px; /* 图标宽度 */
+    height: 24px; /* 图标高度 */
+    transition: opacity 0.3s ease; /* 透明度过渡效果 */
+}
+
+.bm-m-footer__social-media-icon:hover {
+    opacity: 0.7; /* 鼠标悬停时的透明度 */
+}

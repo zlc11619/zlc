@@ -1,0 +1,380 @@
+.bm-m-cta-teaser__media {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.bm-m-cta-teaser__image--1,
+.bm-m-cta-teaser__image--2 {
+    flex: 1;
+    min-width: 300px;
+    position: relative;
+    overflow: hidden;
+}
+
+.bm-h-parallax {
+    will-change: transform;
+    transform-style: preserve-3d;
+    perspective: 1px;
+}
+
+.bm-e-media__img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+}
+
+.bm-e-media__img--placeholder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0;
+}
+
+.bm-state-loaded {
+    opacity: 1;
+}
+
+.bm-state-error {
+    opacity: 0.5;
+    border: 2px solid red;
+}
+
+/* Title style */
+.bm-h4 {
+    color: blue;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Descriptive text style */
+.bm-body--small {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Button group style */
+.bm-e-button-group {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+/* General button style */
+.bm-e-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+/* Primary button style */
+.bm-e-button--primary {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Secondary button style */
+.bm-e-button--secondary {
+    background-color: #f8f9fa;
+    color: #333;
+    border: 1px solid #ddd;
+}
+
+/* Button icon style */
+.bm-e-button__icon {
+    margin-right: 8px;
+    /* You need to set the specific size and color according to the actual icon */
+    width: 16px;
+    height: 16px;
+}
+
+/* Button hover effect */
+.bm-e-button:hover {
+    opacity: 0.8;
+}
+
+/* Main footer links container */
+.bm-m-footer__main-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #f8f9fa;
+}
+
+/* Footer links section */
+.bm-m-footer__main-links-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Footer list item */
+.bm-m-footer__list-item {
+    list-style: none;
+}
+
+/* Footer links */
+.bm-e-link, .bm-overlay-form-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.bm-e-link:hover, .bm-overlay-form-link:hover {
+    color: #007bff;
+}
+
+/* Footer logo container */
+.bm-m-footer__list-item--logo {
+    display: flex;
+    gap: 10px;
+}
+
+/* Footer logo */
+.bm-m-footer__logo {
+    width: 100px;
+    height: auto;
+}
+
+
+/* Social media list container */
+.bm-m-footer__social-media {
+    list-style-type: none; /* 移除列表默认的项目符号 */
+    padding: 0;
+    display: flex; /* 使用 Flexbox 布局 */
+    gap: 15px; /* 设置图标之间的间距 */
+}
+
+.bm-m-footer__social-media li {
+    margin: 0;
+}
+
+.bm-m-footer__social-media-icon {
+    width: 30px; /* 设置图标宽度 */
+    height: 30px; /* 设置图标高度 */
+    transition: opacity 0.3s; /* 添加过渡效果 */
+}
+
+.bm-m-footer__social-media-icon:hover {
+    opacity: 0.7; /* 鼠标悬停时图标变透明 */
+}
+
+/* Social media list item */
+.bm-m-footer__list-item.section {
+    display: flex;
+}
+
+/* Social media link */
+.bm-m-footer__list-item.section a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+/* Social media icon */
+.bm-m-footer__social-media-icon {
+    width: 24px;
+    height: 24px;
+    transition: opacity 0.3s ease;
+}
+
+.bm-m-footer__social-media-icon:hover {
+    opacity: 0.8;
+}
+
+/* Visually hidden text for accessibility */
+.bm-h-visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.custom-p-style {
+    font-size: 18px;
+    color: green;
+    font-family: Arial;
+}
+
+.smaller-image {
+    width: 200px; /* 可根据需求调整宽度 */
+    height: auto; /* 保持高度自适应，避免图片变形 */
+}
+
+.smaller-image-4 {
+    width: 200px; /* 可按需调整宽度 */
+    height: auto; /* 保持高度自适应，防止图片变形 */
+}
+
+.smaller-image-3 {
+    width: 200px; /* 可根据需求调整宽度 */
+    height: auto; 
+}
+
+.smaller-image-2 {
+    width: 300px; /* 可根据需求调整宽度 */
+    height: auto; 
+}
+
+.logo-container {
+    display: flex;
+    justify-content: space-between; /* 使图片在容器内两端对齐，中间留出空间 */
+    align-items: center; /* 垂直居中对齐 */
+}
+
+.logo-container img {
+    /* 可以根据需要调整图片的宽度 */
+    width: auto; 
+    height: auto;
+}
+
+.logo-container-inline img {
+    display: inline-block;
+    margin-right: 20px; /* 调整图片之间的间距 */
+    vertical-align: middle; /* 垂直居中对齐 */
+}
+
+.logo-container-inline img:last-child {
+    margin-right: 0; /* 最后一张图片不设置右边距 */
+}
+
+.image-combine-container {
+    display: flex;
+    gap: 10px; /* 两张图片之间的间距，可以按需调整 */
+    align-items: center; /* 垂直居中对齐 */
+}
+
+.image-combine-container img {
+    width: 30%; /* 让每张图片各占容器宽度的一半 */
+    height: auto;
+}
+
+.image-combine-container img {
+    position: absolute; /* 绝对定位，使图片叠加 */
+    top: 0;
+    left: 0;
+    width: 100%; /* 宽度占满容器 */
+    height: 100%; /* 高度占满容器 */
+    object-fit: cover; /* 保持图片比例并覆盖容器 */
+}
+
+/* 控制图片的堆叠顺序，数值大的在上面 */
+.image-combine-container img:first-child {
+    z-index: 1; 
+}
+
+.image-combine-container img:last-child {
+    z-index: 2; 
+}
+
+.bm-m-cta-teaser__image {
+    width: 20%; /* 让每张图片各占容器宽度的 20%，原注释说占一半可能有误，此处按代码 20% 保留 */
+}
+
+
+
+.bm-m-footer__list-item--logo img {
+    display: block; /* 让图片以块级元素显示，单独占一行 */
+    margin-bottom: 10px; /* 可根据需要调整两张图片之间的间距 */
+}
+
+/* 设置 bm-overlay-form-link 类链接的样式 */
+.bm-m-footer__main-links .bm-overlay-form-link {
+    /* 修改字体 */
+    font-family: 'Times New Roman', serif; 
+    /* 修改字体大小 */
+    font-size: 18px; 
+    /* 修改字体颜色 */
+    color: #007bff; 
+}
+
+/* 设置 bm-e-link 类链接的样式 */
+.bm-m-footer__main-links .bm-e-link {
+    /* 修改字体 */
+    font-family: Verdana, sans-serif; 
+    /* 修改字体大小 */
+    font-size: 16px; 
+    /* 修改字体颜色 */
+    color: #28a745; 
+}
+
+/* 鼠标悬停时的通用样式 */
+.bm-m-footer__main-links a:hover {
+    /* 鼠标悬停时的字体颜色 */
+    color: #ff6600; 
+}
+
+/* 区分不同按钮类型修改
+若要针对不同类型的按钮（如 `bm-e-button--primary` 和 `bm-e-button--secondary`）设置不同样式，可按如下操作：
+```css
+/* 主要按钮样式 */
+.bm-e-button-group .bm-e-button.bm-e-button--primary {
+    /* 修改字体 */
+    font-family: 'Roboto', sans-serif; 
+    /* 修改字体大小 */
+    font-size: 14px; 
+    /* 修改字体颜色 */
+    color: #ffffff; 
+    /* 背景颜色 */
+    background-color: #007bff; 
+}
+
+/* 主要按钮鼠标悬停时的样式 */
+.bm-e-button-group .bm-e-button.bm-e-button--primary:hover {
+    /* 鼠标悬停时的字体颜色 */
+    color: #f8f9fa; 
+    /* 鼠标悬停时的背景颜色 */
+    background-color: #0056b3; 
+}
+
+/* 次要按钮样式 */
+.bm-e-button-group .bm-e-button.bm-e-button--secondary {
+    /* 修改字体 */
+    font-family: 'Arial', sans-serif; 
+    /* 修改字体大小 */
+    font-size: 14px; 
+    /* 修改字体颜色 */
+    color: #333333; 
+    /* 背景颜色 */
+    background-color: #cc34cc; 
+}
+
+/* 次要按钮鼠标悬停时的样式 */
+.bm-e-button-group .bm-e-button.bm-e-button--secondary:hover {
+    /* 鼠标悬停时的字体颜色 */
+    color: #212529; 
+    /* 鼠标悬停时的背景颜色 */
+    background-color: #df5454; 
+}
+
+/* 控制图片 2 的大小 */
+.image-combine-container .bm-e-image.bm-e-media__img.bm-state-loaded {
+    width: 30%; /* 图片宽度为容器宽度的 30% */
+    height: auto; /* 保持图片的宽高比 */
+}
+
+/* 控制图片 3 的大小 */
+.image-combine-container .smaller-image-3 {
+    width: 30%; /* 图片宽度为容器宽度的 30% */
+    height: auto; /* 保持图片的宽高比 */
+}
